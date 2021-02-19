@@ -17,7 +17,11 @@ class MyApp extends StatelessWidget {
               title: Text("Cashy"),
               backgroundColor: Colors.blue,
               actions: <Widget>[
-                IconButton(icon: Icon(Icons.mail), onPressed: () {})
+                IconButton(
+                  icon: Icon(Icons.mail),
+                  onPressed: () {},
+                  color: Colors.yellowAccent,
+                )
               ],
             ),
             body: SafeArea(
