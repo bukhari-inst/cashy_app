@@ -25,7 +25,10 @@ class MyApp extends StatelessWidget {
               ],
             ),
             body: SafeArea(
-              child: Text("Cashy"),
+              child: Image(
+                image: AssetImage('assets/images/ic_payment.png'),
+                height: 200,
+              ),
             )));
   }
 }
